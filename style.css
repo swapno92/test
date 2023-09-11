@@ -1,11 +1,50 @@
 .line {
     border: 1px solid black;
 }
+.body{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    /* padding: 0 50px 100px 50px;
+    margin-bottom: 50px; */
 
-/* section>div {
-    border: 1px solid black;
+}
+/* .ul{
+    display: flex;
 } */
-/* .top{
-   
-    /* border:  2px solid black; */
-} */
+.items{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+.items a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    color: white;
+    background-color: rgba(255, 255, 0, 0.753);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.title{
+    font-size: 30px;
+    margin-top: -10px;
+}
+.banner{
+    background-image: url('./images/1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: white;
+    padding: 40px 50px;
+}
